@@ -1,6 +1,8 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Alcove</title>
         <item>
@@ -29,10 +31,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 > This arm64 build uses an Apple Development signature and is not notarized.
 
 ]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.2.0-beta.1/Alcove.0.2.0-beta.1.dmg" length="5001800" type="application/octet-stream" sparkle:edSignature="KdK6gxgxPkMo98KnbHOhdMSwMkYXAaSP9zhzGIcCY14yi6T6dPCxCBjSw1qqtAXX9MheUh+v16ousywobyU0CQ=="></enclosure>
+            <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.2.0-beta.1/Alcove.0.2.0-beta.1.dmg" length="5001800" type="application/octet-stream" sparkle:edSignature="KdK6gxgxPkMo98KnbHOhdMSwMkYXAaSP9zhzGIcCY14yi6T6dPCxCBjSw1qqtAXX9MheUh+v16ousywobyU0CQ=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: 5Km4gdO3y6X9hQwCFM5j5HIpP3iJvgDV+y8sq37JcQP5QMnrqFssipfGWM3vsUhfo6OfdZqqyKAE4ZY30clhBw==
-length: 1860
+</rss>
+<!-- sparkle-signatures:
+edSignature: 018uSWP5T2xOniBcIyS92bOGQC3ww0M8NgETzjBsW9xj2VRli13BOolmiTiwlLUhY1z/mIo2qfmkxAIfokVQBA==
+length: 1852
 -->
