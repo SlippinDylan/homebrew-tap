@@ -1,8 +1,49 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Palmos</title>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Thu, 17 Sep 2026 12:42:32 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Palmos</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>0.3.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[### Security
+
+- Enabled Hardened Runtime for the app and privileged SMART Helper.
+- Added bidirectional code-signing requirements for App and Helper XPC connections.
+- Associated the legacy LaunchDaemon with the Palmos app in macOS background-item management.
+
+### Fixed
+
+- Restored the app framework runpath so release builds can load Sparkle and launch successfully.
+
+### Validation
+
+- Added release checks for Hardened Runtime and the macOS 26 deployment target.
+- Added a real arm64 smartctl source build to macOS CI.
+
+## 安装
+
+1. 打开 DMG，将 `Palmos.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Palmos.app
+   ```
+
+> 此版本仅支持 Apple Silicon（arm64）。Intel Mac 无法运行；如旧版本曾安装 SMART Helper，请先按 README 的卸载说明清理。
+
+> 此版本使用 Apple Development 证书签名，未经过 Apple 公证。需要时可在设置中安装 SMART Helper。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Palmos/releases/download/v0.3.0-beta.1/Palmos-v0.3.0-beta.1.dmg" length="7073031" type="application/octet-stream" sparkle:edSignature="btifpvZjlDSH/b/CNtsFGPGa31zrM+BrOCiYWbf+dL8hw1riV+tJ6nRFOGf9f4F/k3pZB+5pbwELlIdfDV5NAw=="/>
+        </item>
         <item>
             <title>0.2.0</title>
             <pubDate>Thu, 17 Sep 2026 09:13:57 +0000</pubDate>
@@ -35,10 +76,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 > 此版本使用 Apple Development 证书签名，未经过 Apple 公证。需要时可在设置中安装 SMART Helper。
 
 ]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Palmos/releases/download/v0.2.0-beta.1/Palmos-v0.2.0-beta.1.dmg" length="7072551" type="application/octet-stream" sparkle:edSignature="M+5K7VgddxTzMG8Jrdagnbd7F8qp6pMLV8yK+1tXD6rOhZA6aYcFDRxWkclrU+EYtEO7BLuZiqT2RRAjYlCLBw=="></enclosure>
+            <enclosure url="https://github.com/SlippinDylan/Palmos/releases/download/v0.2.0-beta.1/Palmos-v0.2.0-beta.1.dmg" length="7072551" type="application/octet-stream" sparkle:edSignature="M+5K7VgddxTzMG8Jrdagnbd7F8qp6pMLV8yK+1tXD6rOhZA6aYcFDRxWkclrU+EYtEO7BLuZiqT2RRAjYlCLBw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: 0bROvzxYZPZkPO0OD271I3RrrA5NXqwJafizqbIMFx2HW7of+YXPvEmTkjcV9dlJGxoft1ID4+4Kj+nYmzufCA==
-length: 2152
+</rss>
+<!-- sparkle-signatures:
+edSignature: nGfKRkU5Ab1pQWzHArlHeFBYZVoqqnHc6ecMSR/RxcdBum5880imGxIF0URtpWU9/izPR9+WzHPl2ZjpOZJZDA==
+length: 3946
 -->
