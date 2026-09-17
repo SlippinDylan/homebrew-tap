@@ -1,8 +1,45 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Techne</title>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Thu, 17 Sep 2026 14:02:18 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Techne</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.3.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### 新增
+
+- 自动分析项目声明的启动命令，并支持选择不同的启动模式。
+- 根据 manifest 和锁文件状态自动准备项目依赖。
+- 支持直接添加和运行原生微信小程序项目。
+
+### 调整
+
+- 项目命令通过用户配置的登录 Shell 运行，并以独立会话管理启动、停止和恢复。
+- 普通停止和重启不再清理构建缓存或关闭托管浏览器窗口。
+- CI、打包和发布通知迁移至 Discord。
+
+## 安装
+
+1. 打开 DMG，将 `Techne.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Techne.app
+   ```
+
+> 此版本使用 Apple Development 签名，未经 Apple 公证。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.3.0-beta.1/Techne-0.3.0-beta.1.dmg" length="9897006" type="application/octet-stream" sparkle:edSignature="9Hk9ORQuL9rUp4HeFy8C7kq1jg4TW+jerU2gglZXuiB1sFg0SBmESJy8qvWOol2BaMNsuZ85mCFfSrnA8DYbDQ=="/>
+        </item>
         <item>
             <title>0.2.0</title>
             <pubDate>Thu, 17 Sep 2026 09:12:20 +0000</pubDate>
@@ -33,10 +70,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 > 此版本使用 Apple Development 签名，未经 Apple 公证。
 
 ]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.2.0-beta.1/Techne-0.2.0-beta.1.dmg" length="9871069" type="application/octet-stream" sparkle:edSignature="pU3EHp6ys5js8gUokQHNHurP0uc/bWXlv1BzHs/3xj0gFypFiDCNWwarlonx6VZpbf6mActoy3dTyoO6pqXmCA=="></enclosure>
+            <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.2.0-beta.1/Techne-0.2.0-beta.1.dmg" length="9871069" type="application/octet-stream" sparkle:edSignature="pU3EHp6ys5js8gUokQHNHurP0uc/bWXlv1BzHs/3xj0gFypFiDCNWwarlonx6VZpbf6mActoy3dTyoO6pqXmCA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: eAFq+NJYTJuGFGh+uO0Aw9A3kcAMEogOEO9R7PRpSb2j2p1C9Sz/ANdDyHw/FxMzGyBjMeAl6ZHyQJ0VbXOiDw==
-length: 1896
+</rss>
+<!-- sparkle-signatures:
+edSignature: M5coIT0tm+9XB+O8wnTY8wbie8QwCBYNGXoxshdjclq7BEU+i/wQwGosWW3T+KrrBAsOgy1zEmy1fnSeEV5DAg==
+length: 3510
 -->
