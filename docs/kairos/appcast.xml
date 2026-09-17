@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Kairos</title>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 17 Sep 2026 08:45:06 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Kairos</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Added
+
+- Added Sparkle 2 signed automatic updates with manual checks from the menu bar and About page.
+- Added signed appcast generation and channel-specific Homebrew Cask publishing through the shared personal tap.
+
+### Distribution
+
+- Keeps privileged DNS Helper registration and upgrades under Kairos control rather than Sparkle.
+- Rejects appcast and Cask downgrades and retries concurrent shared-tap updates safely.
+
+## 安装
+
+1. 打开 DMG，将 `Kairos.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Kairos.app
+   ```
+3. 打开 Kairos，在设置中安装 Helper。
+
+> 此版本使用 Apple Development 证书签名，未经 Apple 公证。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Kairos/releases/download/v0.2.0-beta.1/Kairos-0.2.0-beta.1.dmg" length="5630205" type="application/octet-stream" sparkle:edSignature="fuldjikLfyO2xolOBzNO+dC1H1DS4MtPCorRw5zkm4mNrkeA/pwSC6puyZ5zSkr0RnYODhlAgnMcgK2h4KJcDQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: PT0pxYKgLPLjZKsIFjdajPs0aZl9lFPZdlL8y4I4qba80vmbDWe3HcnWJQRY06miM+0uXfMWuqRCiikKD3LFAA==
+length: 2067
+-->
