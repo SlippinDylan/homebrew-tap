@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Alcove</title>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 17 Sep 2026 07:07:12 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Alcove</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Added
+
+- Added Sparkle-powered signed update checks, automatic background updates, and update actions in the menu bar and About settings.
+- Added release automation for signed appcasts and versioned Homebrew Casks in the shared public tap.
+
+## Installation
+
+1. Open the DMG and drag `Alcove.app` to `Applications`.
+2. Remove the download quarantine attribute:
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Alcove.app
+   ```
+
+> This arm64 build uses an Apple Development signature and is not notarized.
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.2.0-beta.1/Alcove.0.2.0-beta.1.dmg" length="5001800" type="application/octet-stream" sparkle:edSignature="KdK6gxgxPkMo98KnbHOhdMSwMkYXAaSP9zhzGIcCY14yi6T6dPCxCBjSw1qqtAXX9MheUh+v16ousywobyU0CQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: 5Km4gdO3y6X9hQwCFM5j5HIpP3iJvgDV+y8sq37JcQP5QMnrqFssipfGWM3vsUhfo6OfdZqqyKAE4ZY30clhBw==
+length: 1860
+-->
