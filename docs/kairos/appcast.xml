@@ -6,6 +6,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Kairos</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Fri, 18 Sep 2026 13:34:11 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Kairos</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### 调整
+
+- 精简菜单栏，只保留带图标的网络控制、网络工具、Mihomo 和退出入口。
+- 移除页面导航快捷键，仅保留退出应用的 `Command-Q`。
+- 统一由发布清单生成 app 与 Helper 的 Xcode 版本和更新频道配置。
+
+## 安装
+
+1. 打开 DMG，将 `Kairos.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Kairos.app
+   ```
+3. 打开 Kairos，在设置中安装 Helper。
+
+> 此版本使用 Apple Development 证书签名，未经 Apple 公证。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Kairos/releases/download/v0.4.0/Kairos-0.4.0.dmg" length="5648999" type="application/octet-stream" sparkle:edSignature="G5fPc7E9tiHLJuASVq1FfG7Wsd37iv8LSHvFMgmPy86xT+qod116HJa9iSyQ2gls5eEnVlUbEvS96Cnnd8MiBg=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Thu, 17 Sep 2026 13:59:02 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Kairos</link>
@@ -43,43 +72,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/SlippinDylan/Kairos/releases/download/v0.3.0-beta.1/Kairos-0.3.0-beta.1.dmg" length="5657660" type="application/octet-stream" sparkle:edSignature="Uhk8Kor+Rkb0SNVbZsF/kgWvIJR924kQZZ2yQCBjgAgiQQR6XswOqWxz6QUsZYQBGc6US89XvmTsVNdK6HyaAw=="/>
         </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Thu, 17 Sep 2026 08:45:06 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Kairos</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.2.0-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[### Added
-
-- Added Sparkle 2 signed automatic updates with manual checks from the menu bar and About page.
-- Added signed appcast generation and channel-specific Homebrew Cask publishing through the shared personal tap.
-
-### Distribution
-
-- Keeps privileged DNS Helper registration and upgrades under Kairos control rather than Sparkle.
-- Rejects appcast and Cask downgrades and retries concurrent shared-tap updates safely.
-
-## 安装
-
-1. 打开 DMG，将 `Kairos.app` 拖到 `Applications`。
-2. 移除下载隔离属性：
-
-   ```bash
-   sudo xattr -rd com.apple.quarantine /Applications/Kairos.app
-   ```
-3. 打开 Kairos，在设置中安装 Helper。
-
-> 此版本使用 Apple Development 证书签名，未经 Apple 公证。
-
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Kairos/releases/download/v0.2.0-beta.1/Kairos-0.2.0-beta.1.dmg" length="5630205" type="application/octet-stream" sparkle:edSignature="fuldjikLfyO2xolOBzNO+dC1H1DS4MtPCorRw5zkm4mNrkeA/pwSC6puyZ5zSkr0RnYODhlAgnMcgK2h4KJcDQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: /Um/dDX/YJNTJJgagUQ2QpEvm0wPGXgw2fL9xF/6sVGjROTzf9tiE/vGPwgpUj/6zGh+OZq0UjX0GksWKWSzAw==
-length: 3716
+edSignature: TKwpRU6gNY7a4QPsKzRhg/dSusYIEppUpscsDhsYO+yetycno28AuDHgwFSdYkHp14NwSw9H9cRJrJDAswFrCQ==
+length: 3485
 -->
