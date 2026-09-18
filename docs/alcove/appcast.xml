@@ -6,6 +6,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Alcove</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Fri, 18 Sep 2026 14:43:31 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Alcove</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Changed
+
+- Removed Check for Updates from the menu bar; update checks remain available in About settings.
+- Removed the Command-comma shortcut from the menu-bar Settings item.
+- Established the release manifest as the single version source and added CI drift checks for generated Xcode settings.
+
+## Installation
+
+1. Open the DMG and drag `Alcove.app` to `Applications`.
+2. Remove the download quarantine attribute:
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Alcove.app
+   ```
+
+> This arm64 build uses an Apple Development signature and is not notarized.
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.3.0/Alcove.0.3.0.dmg" length="5001050" type="application/octet-stream" sparkle:edSignature="/JB22b0k9zV6MtMfRezZbVQ9wps4XS9xrd1FKir4GvSwuHEFjFk0SkqAEPDR9yK4jnoINum4jp7p5DczHMQVDw=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Thu, 17 Sep 2026 07:07:12 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Alcove</link>
@@ -36,6 +64,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 018uSWP5T2xOniBcIyS92bOGQC3ww0M8NgETzjBsW9xj2VRli13BOolmiTiwlLUhY1z/mIo2qfmkxAIfokVQBA==
-length: 1852
+edSignature: ualZwALcUR7CgBv/W4QA7mkGo6QqoOSvCfNJG8aCWiDSPsfkQQodoYczOkURKm0otHbxPgN/fvn9d3O+XNsPCA==
+length: 3257
 -->
