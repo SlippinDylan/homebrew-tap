@@ -6,6 +6,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Palmos</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Sat, 19 Sep 2026 04:18:47 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Palmos</link>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[### Changed
+
+- Redesigned Settings as a native preference window with compact Alcove-aligned layout and content-driven height.
+- Made the release manifest the single version source for App, Helper, tests, update channel, and release automation.
+
+### Documentation
+
+- Reorganized Agent guidance into a concise repository contract with dedicated architecture and development references.
+
+## 安装
+
+1. 打开 DMG，将 `Palmos.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Palmos.app
+   ```
+
+> 此版本仅支持 Apple Silicon（arm64）。Intel Mac 无法运行；如旧版本曾安装 SMART Helper，请先按 README 的卸载说明清理。
+
+> 此版本使用 Apple Development 证书签名，未经过 Apple 公证。需要时可在设置中安装 SMART Helper。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Palmos/releases/download/v0.4.0/Palmos-v0.4.0.dmg" length="7065259" type="application/octet-stream" sparkle:edSignature="5CkxXFy4r3HR8RHQaWnePQQBQIEkXeWAI8YzteP/AtqpvkSbWGTajFQ2VRp9NyvlUekB12mkqLfF1zzsYSgEDw=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Thu, 17 Sep 2026 12:42:32 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Palmos</link>
@@ -44,43 +76,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/SlippinDylan/Palmos/releases/download/v0.3.0-beta.1/Palmos-v0.3.0-beta.1.dmg" length="7073031" type="application/octet-stream" sparkle:edSignature="btifpvZjlDSH/b/CNtsFGPGa31zrM+BrOCiYWbf+dL8hw1riV+tJ6nRFOGf9f4F/k3pZB+5pbwELlIdfDV5NAw=="/>
         </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Thu, 17 Sep 2026 09:13:57 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Palmos</link>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>0.2.0-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[### Added
-
-- Added Sparkle 2 signed automatic updates with a manual check in Settings.
-- Added signed appcast generation and channel-specific Homebrew Cask publishing through the shared personal tap.
-
-### Distribution
-
-- Keeps the privileged SMART Helper and bundled smartctl installation under explicit Palmos authorization rather than Sparkle.
-- Rejects appcast and Cask downgrades and retries concurrent shared-tap updates safely.
-
-## 安装
-
-1. 打开 DMG，将 `Palmos.app` 拖到 `Applications`。
-2. 移除下载隔离属性：
-
-   ```bash
-   sudo xattr -rd com.apple.quarantine /Applications/Palmos.app
-   ```
-
-> 此版本仅支持 Apple Silicon（arm64）。Intel Mac 无法运行；如旧版本曾安装 SMART Helper，请先按 README 的卸载说明清理。
-
-> 此版本使用 Apple Development 证书签名，未经过 Apple 公证。需要时可在设置中安装 SMART Helper。
-
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Palmos/releases/download/v0.2.0-beta.1/Palmos-v0.2.0-beta.1.dmg" length="7072551" type="application/octet-stream" sparkle:edSignature="M+5K7VgddxTzMG8Jrdagnbd7F8qp6pMLV8yK+1tXD6rOhZA6aYcFDRxWkclrU+EYtEO7BLuZiqT2RRAjYlCLBw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: nGfKRkU5Ab1pQWzHArlHeFBYZVoqqnHc6ecMSR/RxcdBum5880imGxIF0URtpWU9/izPR9+WzHPl2ZjpOZJZDA==
-length: 3946
+edSignature: IisEmxxN+dMCVd1CNWOCSkAIAwimwuoFmFHqxlK0IuR6At5Od5Pv2IqmAQVPXawncidtl6/WNPx6EfAcyMz1DQ==
+length: 3824
 -->
