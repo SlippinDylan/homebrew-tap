@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Alcove</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Sat, 19 Sep 2026 04:20:51 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Alcove</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Fixed
+
+- Kept application and panel settings above ordinary windows and reused their visible window without recentering it.
+
+## Installation
+
+1. Open the DMG and drag `Alcove.app` to `Applications`.
+2. Remove the download quarantine attribute:
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Alcove.app
+   ```
+
+> This arm64 build uses an Apple Development signature and is not notarized.
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.4.0/Alcove.0.4.0.dmg" length="5001729" type="application/octet-stream" sparkle:edSignature="guBkWIIEQh8Lua81DHhmiKjs791Rc6b2vOQXt572xeL3ouUhzZgcDtvivAWknYA0PSInm1mzvFwqy1ADEL1DCQ=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Fri, 18 Sep 2026 14:43:31 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Alcove</link>
@@ -64,6 +90,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ualZwALcUR7CgBv/W4QA7mkGo6QqoOSvCfNJG8aCWiDSPsfkQQodoYczOkURKm0otHbxPgN/fvn9d3O+XNsPCA==
-length: 3257
+edSignature: O90e0epAFtIgQr8NCGdlN03f2i++zerIhRIUO1tVw1maCNNk6AQ9taPk/YKKchrx0hIfVJmpgTPC7e4rhw1rAw==
+length: 4490
 -->
