@@ -1,6 +1,6 @@
 cask "techne" do
-  version "0.6.0"
-  sha256 "4a63b45bcc1007db3378ea18fd15b0b6dcac32fd1d9d961f7835bcfd34e09d70"
+  version "0.6.1"
+  sha256 "bc1b46e34bbd32948bc2a8873a95fb50d1f74abeb893a68a4fc27c222ee5faac"
 
   url "https://github.com/SlippinDylan/Techne/releases/download/v#{version}/Techne-#{version}.dmg"
   name "Techne"
