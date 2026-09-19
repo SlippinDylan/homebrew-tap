@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Techne</title>
         <item>
+            <title>0.6.2</title>
+            <pubDate>Sat, 19 Sep 2026 11:27:31 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Techne</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### 修复
+
+- 改用状态栏按钮原生左右键事件分流，确保右键菜单稳定显示。
+
+## 安装
+
+1. 打开 DMG，将 `Techne.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Techne.app
+   ```
+
+> 此版本使用 Apple Development 签名，未经 Apple 公证。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.6.2/Techne-0.6.2.dmg" length="9973578" type="application/octet-stream" sparkle:edSignature="ZD28ZuakRN8V3Nz5n5vMbJA1tJmYywK/18ahmcc8/6UugOYmEtgZbHgzarZKTET+hIBGbwfVFgbFnjBwxMmuDw=="/>
+        </item>
+        <item>
             <title>0.6.1</title>
             <pubDate>Sat, 19 Sep 2026 11:07:46 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Techne</link>
@@ -60,36 +86,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.6.0/Techne-0.6.0.dmg" length="9972701" type="application/octet-stream" sparkle:edSignature="oz+h5Azds1W5rTND4cJjkG9Y5TPO9PKOo5Ev8bni/7g6YGAPMeosJiijRlL0YQt9cssfHMOKmZson4tRzA+cBQ=="/>
         </item>
         <item>
-            <title>0.5.0</title>
-            <pubDate>Sat, 19 Sep 2026 09:19:19 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Techne</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[### 新增
-
-- 支持英文、简体中文和繁体中文界面，并可在设置中跟随系统或手动选择语言。
-
-### 调整
-
-- 更改应用语言后可立即重启生效，也可留到下次启动时应用。
-
-## 安装
-
-1. 打开 DMG，将 `Techne.app` 拖到 `Applications`。
-2. 移除下载隔离属性：
-
-   ```bash
-   sudo xattr -rd com.apple.quarantine /Applications/Techne.app
-   ```
-
-> 此版本使用 Apple Development 签名，未经 Apple 公证。
-
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.5.0/Techne-0.5.0.dmg" length="9971310" type="application/octet-stream" sparkle:edSignature="QSTW/GxL9/1zuEvFJO4MtF7wyv7a6M5QkEUvgUaOP+o9f0++qfCk2PDv+JMd1Ny1b8rm8QBnMF1Jn/IgzlGdDA=="/>
-        </item>
-        <item>
             <title>0.3.0</title>
             <pubDate>Thu, 17 Sep 2026 14:02:18 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Techne</link>
@@ -127,6 +123,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: cWGzyaRQEwZ73JMZiA8G2MMiUl+0BsqsL03BMRTIR4jokpyyrRCwJRrONt5+xdyLKd6h8lPnWSPTJIlLfyHEBw==
-length: 5872
+edSignature: 0ClQXT0sh7IrC7jsoQrxAoutFOMfWuR8bWGnTMuKBLOS902I5G98BGElYtrzthbm7uaCXrfvXNmctXb9V440CA==
+length: 5754
 -->
