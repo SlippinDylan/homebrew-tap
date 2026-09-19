@@ -1,6 +1,6 @@
 cask "kairos" do
-  version "0.4.0"
-  sha256 "6c3b54b40efc3692cad51cb1b427cd9bf5e548feefebf16ac8fb5e00042dd832"
+  version "0.5.0"
+  sha256 "d54da811cbb4f4356c989b797d492db3588403d408868e749c39f410d5bfa6ac"
 
   url "https://github.com/SlippinDylan/Kairos/releases/download/v#{version}/Kairos-#{version}.dmg"
   name "Kairos"
