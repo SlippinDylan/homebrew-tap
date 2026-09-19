@@ -1,6 +1,6 @@
 cask "palmos" do
-  version "0.4.0"
-  sha256 "aaa3def93a1a906fe7f9a1e3442662da72922a7a1e111e0552f140b2cd4fbf7b"
+  version "0.5.0"
+  sha256 "c4e4e6e36e57165fdc9dc886e46de5b75d50f2e361e5db428d80e5d5ec4dd499"
 
   url "https://github.com/SlippinDylan/Palmos/releases/download/v#{version}/Palmos-v#{version}.dmg"
   name "Palmos"

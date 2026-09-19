@@ -6,6 +6,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Palmos</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Sat, 19 Sep 2026 08:08:18 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Palmos</link>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[### Added
+
+- Added an in-app language selector for English, Simplified Chinese, Traditional Chinese, and the macOS system default.
+
+## 安装
+
+1. 打开 DMG，将 `Palmos.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Palmos.app
+   ```
+
+> 此版本仅支持 Apple Silicon（arm64）。Intel Mac 无法运行；如旧版本曾安装 SMART Helper，请先按 README 的卸载说明清理。
+
+> 此版本使用 Apple Development 证书签名，未经过 Apple 公证。需要时可在设置中安装 SMART Helper。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Palmos/releases/download/v0.5.0/Palmos-v0.5.0.dmg" length="7075551" type="application/octet-stream" sparkle:edSignature="dr5QQeMWS4RuC7V/sKaYzUHNJqDls1wTKw42TG3aMRlhqCQnVsV8XJ7x+RerbYWpWHF45jWmsHjTJULLVpdsBw=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Sat, 19 Sep 2026 04:18:47 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Palmos</link>
@@ -79,6 +106,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: IisEmxxN+dMCVd1CNWOCSkAIAwimwuoFmFHqxlK0IuR6At5Od5Pv2IqmAQVPXawncidtl6/WNPx6EfAcyMz1DQ==
-length: 3824
+edSignature: Pgc/YSH959JF2Sb9kN+TwfsKkdZL8bXcsXtmMLfi12rBY8HKW/q0Q2Qv/T7Sz6VRaGzdT9Gt76RdiJASGX8SDQ==
+length: 5162
 -->
