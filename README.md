@@ -22,7 +22,7 @@ brew install --cask alcove@beta
 | Application | Cask | Status |
 |---|---|---|
 | Alcove | `alcove@beta` | Available |
-| Cellar | `cellar` / `cellar@beta` | Published by the first Sparkle-enabled release |
+| Cellar | `cellar` / `cellar@alpha` / `cellar@beta` | Published by the first matching Sparkle-enabled release |
 | Kairos | `kairos@beta` | Published by the next Sparkle-enabled beta release |
 | Palmos | `palmos@beta` | Published by the next Sparkle-enabled beta release |
 | Techne | `techne@beta` | Published by the next Sparkle-enabled beta release |
