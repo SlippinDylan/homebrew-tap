@@ -22,11 +22,12 @@ brew install --cask alcove@beta
 | Application | Cask | Status |
 |---|---|---|
 | Alcove | `alcove@beta` | Available |
+| Cellar | `cellar` / `cellar@beta` | Published by the first Sparkle-enabled release |
 | Kairos | `kairos@beta` | Published by the next Sparkle-enabled beta release |
 | Palmos | `palmos@beta` | Published by the next Sparkle-enabled beta release |
 | Techne | `techne@beta` | Published by the next Sparkle-enabled beta release |
 
-The Kairos, Palmos, and Techne commands become available only after their Cask
+The Cellar, Kairos, Palmos, and Techne commands become available only after their Cask
 files appear in this repository. Each application publishes its own Cask and
 signed feed after a successful GitHub Release.
 
