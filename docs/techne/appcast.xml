@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Techne</title>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Sun, 20 Sep 2026 03:27:32 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Techne</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### 调整
+
+- 将项目页面顶部的四项统计信息整合为带短分隔线的单一卡片。
+- 设置页顶部增加“通用、关于”Pane，并将关于页面从侧边栏移入设置。
+- 将项目卡片操作按钮整合为带短分隔线的紧凑胶囊工具栏。
+- 重新组织项目卡片的路径、分支、运行状态、Git 警告与终端输出层级。
+- 在工具栏、项目操作区和设置操作中采用 macOS Liquid Glass，并统一滚动区域表现。
+- 精简日志与 Android 部署页面，将日志操作迁移到系统工具栏并按需显示终端输出。
+
+## 安装
+
+1. 打开 DMG，将 `Techne.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Techne.app
+   ```
+
+> 此版本使用 Apple Development 签名，未经 Apple 公证。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.7.0/Techne-0.7.0.dmg" length="10035094" type="application/octet-stream" sparkle:edSignature="ZG36p/MCnxZwlQxZTRvOp50zS0xQm10pKWeLM7MN9he3CsO6dmQL5M6Ib79xFASp5fdHMOxiAItDozjizh82Cw=="/>
+        </item>
+        <item>
             <title>0.6.2</title>
             <pubDate>Sat, 19 Sep 2026 11:27:31 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Techne</link>
@@ -58,34 +89,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.6.1/Techne-0.6.1.dmg" length="9972024" type="application/octet-stream" sparkle:edSignature="f65cgA9HxsReYn1JsHwOsJxPU3UuqGO4159WGDqEaUw/mLFAQh+Qfm+Ln8tLdhbZM2hAX51u1GvjrcUGFshZCg=="/>
         </item>
         <item>
-            <title>0.6.0</title>
-            <pubDate>Sat, 19 Sep 2026 09:34:21 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Techne</link>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[### 调整
-
-- 菜单栏图标改为左键显示主窗口、右键打开业务菜单。
-- `Command-Q` 改为关闭主窗口并保留菜单栏运行，仅可从菜单栏的退出项彻底退出应用。
-- 主窗口显示时保持单窗口复用并置于前台，同时不再显示 Dock 图标。
-
-## 安装
-
-1. 打开 DMG，将 `Techne.app` 拖到 `Applications`。
-2. 移除下载隔离属性：
-
-   ```bash
-   sudo xattr -rd com.apple.quarantine /Applications/Techne.app
-   ```
-
-> 此版本使用 Apple Development 签名，未经 Apple 公证。
-
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Techne/releases/download/v0.6.0/Techne-0.6.0.dmg" length="9972701" type="application/octet-stream" sparkle:edSignature="oz+h5Azds1W5rTND4cJjkG9Y5TPO9PKOo5Ev8bni/7g6YGAPMeosJiijRlL0YQt9cssfHMOKmZson4tRzA+cBQ=="/>
-        </item>
-        <item>
             <title>0.3.0</title>
             <pubDate>Thu, 17 Sep 2026 14:02:18 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Techne</link>
@@ -123,6 +126,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 0ClQXT0sh7IrC7jsoQrxAoutFOMfWuR8bWGnTMuKBLOS902I5G98BGElYtrzthbm7uaCXrfvXNmctXb9V440CA==
-length: 5754
+edSignature: rC7dEIYaYO3dLqChRjLQcLbYbT1tgRCTaOsr8XE7oDTJ2c2/mcFY3q70baYo1uCfrZ+4mA6Gdeha7W1z3pTEBw==
+length: 6055
 -->
