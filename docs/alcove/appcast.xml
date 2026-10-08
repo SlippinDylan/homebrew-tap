@@ -6,6 +6,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Alcove</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Thu, 08 Oct 2026 02:44:58 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Alcove</link>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Changed
+
+- 左键点击面板任意区域或在菜单栏选择“显示”时，将该面板临时提升到普通应用窗口上方；同一时间只提升一个面板，点击另一面板或切换到其他应用时，原面板回到桌面层。
+- 层级切换保持面板的位置和尺寸，设置及快速查看仍可在面板上方正常使用；启动、恢复和导入布局时保持桌面层。
+
+## Installation
+
+1. Open the DMG and drag `Alcove.app` to `Applications`.
+2. Remove the download quarantine attribute:
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Alcove.app
+   ```
+
+> This arm64 build uses an Apple Development signature and is not notarized.
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.5.0/Alcove.0.5.0.dmg" length="5007455" type="application/octet-stream" sparkle:edSignature="7XvkcCmNbX4T5QiVPERlblPFlTzJgvKHlNvxYbcO8NVPmuaCxRPKWKtuMC0eGNUGxhQFeGP2EIVwKmw6rfl3Cw=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Sat, 19 Sep 2026 04:20:51 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Alcove</link>
@@ -90,6 +117,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: O90e0epAFtIgQr8NCGdlN03f2i++zerIhRIUO1tVw1maCNNk6AQ9taPk/YKKchrx0hIfVJmpgTPC7e4rhw1rAw==
-length: 4490
+edSignature: L9mxQ1cGqKcZU23loUkBFGNZOrb02EZ+x6v1cJVlvTeva8pTI185xKCwGMIBO2kDYSR6wfsNYHQ6uqdpRApSAQ==
+length: 6001
 -->
