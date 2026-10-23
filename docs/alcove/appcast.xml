@@ -6,6 +6,42 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Alcove</title>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Fri, 23 Oct 2026 12:34:04 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Alcove</link>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Added
+
+- 新增哑光、烟色、柔彩、微渐层、纸感和透明轮廓背景，与原有半透明背景一起在应用设置中选择；全部面板即时同步，并在重启后恢复。
+- 背景样式适配系统深浅外观；半透明、烟色和轮廓支持五档透明度，其他样式保留透明度偏好；轮廓样式为文字和控制区提供局部底色。
+
+### Fixed
+
+- 修复从 Finder 或桌面拖入文件和文件夹时必须寻找网格空白区域的问题，默认整批复制，并保留冲突校验和明确的失败提示。
+- 修复面板失焦后顶部泛白的问题；背景统一使用静态绘制，切换样式时完整替换底色和装饰，减少透明度下使用不透明可访问表面。
+
+### Changed
+
+- 布局备份升级为 v2，包含背景样式；不再导入 v1 备份。本机面板数据格式及其已有迁移路径保持不变。
+
+## Installation
+
+1. Open the DMG and drag `Alcove.app` to `Applications`.
+2. Remove the download quarantine attribute:
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Alcove.app
+   ```
+
+> This arm64 build uses an Apple Development signature and is not notarized.
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.6.0/Alcove.0.6.0.dmg" length="5035813" type="application/octet-stream" sparkle:edSignature="KR/7bajKpBlsw1ZtY14l6rjY1lzrblmxhXd+CvYho8wlSgmIlhZsumP5fN7FEcDioNJAtcBLKN8XQ4ROSgEXDg=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Thu, 08 Oct 2026 02:44:58 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Alcove</link>
@@ -59,34 +95,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.4.0/Alcove.0.4.0.dmg" length="5001729" type="application/octet-stream" sparkle:edSignature="guBkWIIEQh8Lua81DHhmiKjs791Rc6b2vOQXt572xeL3ouUhzZgcDtvivAWknYA0PSInm1mzvFwqy1ADEL1DCQ=="/>
         </item>
         <item>
-            <title>0.3.0</title>
-            <pubDate>Fri, 18 Sep 2026 14:43:31 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Alcove</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[### Changed
-
-- Removed Check for Updates from the menu bar; update checks remain available in About settings.
-- Removed the Command-comma shortcut from the menu-bar Settings item.
-- Established the release manifest as the single version source and added CI drift checks for generated Xcode settings.
-
-## Installation
-
-1. Open the DMG and drag `Alcove.app` to `Applications`.
-2. Remove the download quarantine attribute:
-
-   ```bash
-   sudo xattr -rd com.apple.quarantine /Applications/Alcove.app
-   ```
-
-> This arm64 build uses an Apple Development signature and is not notarized.
-
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Alcove/releases/download/v0.3.0/Alcove.0.3.0.dmg" length="5001050" type="application/octet-stream" sparkle:edSignature="/JB22b0k9zV6MtMfRezZbVQ9wps4XS9xrd1FKir4GvSwuHEFjFk0SkqAEPDR9yK4jnoINum4jp7p5DczHMQVDw=="/>
-        </item>
-        <item>
             <title>0.2.0</title>
             <pubDate>Thu, 17 Sep 2026 07:07:12 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Alcove</link>
@@ -117,6 +125,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: L9mxQ1cGqKcZU23loUkBFGNZOrb02EZ+x6v1cJVlvTeva8pTI185xKCwGMIBO2kDYSR6wfsNYHQ6uqdpRApSAQ==
-length: 6001
+edSignature: V3tIr3tTgY0SggmwWlKv7gePcsBjNLwV1XFB277Cx6d4BaPF/C1x9pGQgA4+vKQ/j3oqNL4rGxvtBltRD0mWAg==
+length: 6590
 -->

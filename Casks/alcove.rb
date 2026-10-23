@@ -1,6 +1,6 @@
 cask "alcove" do
-  version "0.5.0"
-  sha256 "3e815db9bc45b1259bc82cb8ea9994de773e2b71810e3fa168dc2afcfbbb9bca"
+  version "0.6.0"
+  sha256 "4dbe2caaaf5893e7dfc7de7f6b6841e4408e98c9cc17821c1c44bb8c59a745ff"
 
   url "https://github.com/SlippinDylan/Alcove/releases/download/v#{version}/Alcove.#{version}.dmg"
   name "Alcove"
