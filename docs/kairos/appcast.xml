@@ -6,6 +6,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Kairos</title>
         <item>
+            <title>0.9.1</title>
+            <pubDate>Sun, 25 Oct 2026 15:00:23 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Kairos</link>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### 修复
+
+- 工具详情与场景编辑页按内容调整高度，最高不超过当前屏幕可用高度的 60%，移除多余的底部留白。
+- IP 查询输入框固定在顶部，仅查询结果滚动；滚动条移至面板最右侧，不再占用内容宽度。
+- 修复系统设置为始终显示滚动条时叠加样式未生效的问题，并统一详情页展开、收缩和返回时的尺寸处理。
+
+## 安装
+
+1. 打开 DMG，将 `Kairos.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Kairos.app
+   ```
+3. 打开 Kairos，在设置中安装 Helper。
+
+> 此版本使用 Apple Development 证书签名，未经 Apple 公证。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Kairos/releases/download/v0.9.1/Kairos-0.9.1.dmg" length="5673847" type="application/octet-stream" sparkle:edSignature="sTxh5eEIne0w/uDIB0F+NI4NjIHi6XbG7P9MeBciEJoBFM0T5GyeivseW9vxC710Mx+EA7FCKq/b+DLjsAW5BQ=="/>
+        </item>
+        <item>
             <title>0.9.0</title>
             <pubDate>Sun, 25 Oct 2026 14:27:19 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Kairos</link>
@@ -91,34 +120,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <enclosure url="https://github.com/SlippinDylan/Kairos/releases/download/v0.8.1/Kairos-0.8.1.dmg" length="5783056" type="application/octet-stream" sparkle:edSignature="dB1c44bZt/OMDEo/IYbLT7kc9A6nXcLFVzu2U5ZJiqaemutqK2lYyFMU+9DoW1fXC0K79riV2EivxU+ePr0WDQ=="/>
         </item>
         <item>
-            <title>0.8.0</title>
-            <pubDate>Thu, 24 Sep 2026 11:47:51 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Kairos</link>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[### 修复
-
-- Mihomo 内核替换支持用户主目录内、目标目录可写但原文件由 root 持有的情况。
-- 替换和恢复前对新内核处理隔离属性并完成 ad hoc 签名；提交后验证，失败时恢复原文件。
-
-## 安装
-
-1. 打开 DMG，将 `Kairos.app` 拖到 `Applications`。
-2. 移除下载隔离属性：
-
-   ```bash
-   sudo xattr -rd com.apple.quarantine /Applications/Kairos.app
-   ```
-3. 打开 Kairos，在设置中安装 Helper。
-
-> 此版本使用 Apple Development 证书签名，未经 Apple 公证。
-
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Kairos/releases/download/v0.8.0/Kairos-0.8.0.dmg" length="5776077" type="application/octet-stream" sparkle:edSignature="/qhoFURhFSWUTOwuzDkIu7XfiZq69sqj0JziwsUVWXXAfo4oHWMBN8cqU6DkQ4HcTj2MrNRtZ4QkBh0JOzqiBw=="/>
-        </item>
-        <item>
             <title>0.3.0</title>
             <pubDate>Thu, 17 Sep 2026 13:59:02 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Kairos</link>
@@ -159,6 +160,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: oQEp7tPq+rKpHdX3Qw/dP+iYh0yGH4qbExDQ1UuDpTqhyZG5C/A/nHfBluif8dcMHq2VXLDkx3jrJ5cEcGnIDw==
-length: 9421
+edSignature: jn9cq0pK+87SPuGvx/4Q2Qb1OCY+j05LwAAHsAtAqOf/y8rzdNVehZyx/kJTtcCc4L6D44qOzhGsGCxvClhdAQ==
+length: 9596
 -->
