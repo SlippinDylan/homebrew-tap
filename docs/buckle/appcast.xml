@@ -1,8 +1,37 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Buckle</title>
+        <item>
+            <title>0.1.2</title>
+            <pubDate>Sat, 14 Nov 2026 13:58:32 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Buckle</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## [0.1.2] - 2026-11-14
+
+### Fixed
+- Release publishing now rejects an existing version tag that points to different source code, preventing mismatched installers and update metadata.
+- Japanese browser launches now request the Tokyo time zone, matching the original launch script, without changing the macOS time zone.
+- Chromium browsers launched in Japanese now receive Japanese (Japan) as the preferred language, with Japanese as the fallback, matching the original script.
+
+### Added
+- Added a configurable delay before reopening mouse-reset apps in Settings, from 0 to 60 seconds, with a default of 3 seconds.
+
+### Improved
+- Increased the menu-bar icon to 20pt and thickened its lines for better visibility alongside other menu-bar icons.
+- GitHub Releases and in-app update notes now use the same version-specific English changelog, so each release explains what changed.
+
+### Known Issues
+- Website regional formatting can still follow the browser's macOS application language. Selecting Japanese does not guarantee that this formatting changes to Japanese.
+- The Japanese time-zone behavior has been verified with Chrome Beta; other supported browsers still require testing.
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.1.2/Buckle-0.1.2.dmg" length="5280631" type="application/octet-stream" sparkle:edSignature="caIDvGcEASNXbkg1siOvmI5oUvM8IQBI4rHSRaG/RenU0l271EC6zQyM4jFiX8VRTXHCa1aAQBn6Qi4RgDimAg=="/>
+        </item>
         <item>
             <title>0.1.1</title>
             <pubDate>Sat, 14 Nov 2026 11:38:25 +0000</pubDate>
@@ -21,10 +50,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 构建记录：https://github.com/SlippinDylan/Buckle/actions/runs/43589667294
 
 ]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.1.1/Buckle-0.1.1.dmg" length="5275624" type="application/octet-stream" sparkle:edSignature="c2buCzX8rFTCms8EZyolXIF70hlJnxd4IpdGTDp+VJYgVOwk/Wf/5F4i0I8oYGqhJqS4iSlMau7xBvO47Le5Dg=="></enclosure>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.1.1/Buckle-0.1.1.dmg" length="5275624" type="application/octet-stream" sparkle:edSignature="c2buCzX8rFTCms8EZyolXIF70hlJnxd4IpdGTDp+VJYgVOwk/Wf/5F4i0I8oYGqhJqS4iSlMau7xBvO47Le5Dg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: LgrIQMzHIzNnbgBubjAoqfF/lYiiRH2VaUsgrb4w/nuKuERd8ygu4A9MCg+af18issGDPrs4uYIQpKqjPNccDA==
-length: 1731
+</rss>
+<!-- sparkle-signatures:
+edSignature: kCCM29N3muJUBrCUPqs0tapN0uGrGv6URbJPMM+MKLR30SKNN921ym2FjXwQtXKDUv3+PC+JTzMjhD1832IaDA==
+length: 3651
 -->
