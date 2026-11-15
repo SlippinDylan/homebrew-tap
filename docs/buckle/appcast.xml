@@ -6,6 +6,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Buckle</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Sun, 15 Nov 2026 04:41:47 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Buckle</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## [0.2.0] - 2026-11-15
+
+### Changed
+- Move Items Here no longer asks for confirmation; missing-permission prompts open the existing Settings authorization flows, and move errors use consistent native alerts with clearer guidance and folder or app icons matching the cause.
+- Only AirDrop retains an icon in Finder context menus; Open in Terminal, Copy Path, and Move Items Here use text labels.
+- Move Items Here now opens the destination in Finder and triggers its native move command, with Finder managing progress, conflicts, and Undo; Accessibility and Finder/System Events automation access are required.
+
+### Fixed
+- A damaged move-signing key no longer blocks other Finder action switches or turning off Move Items Here.
+- Destination folders disappearing before script execution now show a folder-specific error and icon while preserving the original error details.
+- Move requests authenticate the destination and clipboard version so arbitrary external URLs cannot trigger a move.
+- Finder authorization rechecks access after a cached grant, including permissions revoked in System Settings.
+- Manual Finder automation authorization waits for an ongoing permission check instead of dropping the request.
+- Finder and System Events automation permissions are reported separately, and moves identify missing access before execution.
+- Move Items Here resolves the native move shortcut using the active keyboard layout, including Dvorak Command mappings, and refuses customized Finder/global menu shortcuts instead of guessing a command.
+- AirDrop no longer blocks other Finder actions or normal quit while awaiting sharing callbacks; per-session delegates handle cancellation and prevent duplicate sharing windows.
+- Copy Path now displays a clear error when copying fails, and remains available when folder metadata checks fail.
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.0/Buckle-0.2.0.dmg" length="5345157" type="application/octet-stream" sparkle:edSignature="0WmrnsSIUvELmjly7PZLJnncL0yrjAPsQgHFuglUkVU0x8dpTYzYCDbTazQu4+Yt1H33gjuGwsU1ZQcZahqlCg=="/>
+        </item>
+        <item>
             <title>0.1.2</title>
             <pubDate>Sat, 14 Nov 2026 13:58:32 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Buckle</link>
@@ -55,6 +82,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: kCCM29N3muJUBrCUPqs0tapN0uGrGv6URbJPMM+MKLR30SKNN921ym2FjXwQtXKDUv3+PC+JTzMjhD1832IaDA==
-length: 3651
+edSignature: lRf+w0pZOqrpSewpycBjOL3ptzm8tB3Gy+FGOCj+fornnSlerjh7tlAooGnk9DHeaRD/1h6C2xLWBxTyXdAPCw==
+length: 6233
 -->
