@@ -21,6 +21,7 @@ brew install --cask alcove@beta
 
 | Application | Cask | Status |
 |---|---|---|
+| Buckle | `buckle` | Available: `brew install --cask slippindylan/tap/buckle` |
 | Alcove | `alcove@beta` | Available |
 | Cellar | `cellar` / `cellar@alpha` / `cellar@beta` | Published by the first matching Sparkle-enabled release |
 | Kairos | `kairos@beta` | Published by the next Sparkle-enabled beta release |

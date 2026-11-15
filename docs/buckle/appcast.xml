@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Buckle</title>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Sun, 15 Nov 2026 07:14:36 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Buckle</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## [0.2.1] - 2026-11-15
+
+### Changed
+- CI now classifies changes and automatically packages and publishes an unpublished version after a successful full main build when packaging is enabled; documentation and helper-only changes do not release installers. Test packaging remains a separate manual workflow.
+- Test installers disable updates, and DMGs now use a drag-to-install layout with version, destination, and overwrite checks.
+- Distribution synchronization now prepares the Buckle Homebrew Cask and Tap listing from the published installer alongside its signed update feed.
+
+### Fixed
+- About now explains unavailable updates when configuration is missing or initialization fails.
+- Release checks reject reused versions or build numbers and mismatched update-signing keys before publishing.
+- Activity notifications now cover PR reviews and code comments, link PR conversation comments correctly, and report one start and result per actual CI, packaging, and update-synchronization stage, with publishing results tracked separately.
+- Localization and release-note checks now validate more format arguments, accept Breaking Changes, and reject unfinished release notes.
+- The Settings window no longer floats above Sparkle update windows.
+- Finder context-menu actions no longer crash the extension when Finder invokes them on a background XPC queue, which prevented AirDrop from opening and removed the menu entry afterward.
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.1/Buckle-0.2.1.dmg" length="5200041" type="application/octet-stream" sparkle:edSignature="Bs+ZcJhejWtRe32x0q/fAXPTDjC8JkJ0wIzvJycpVtwOzKKmEWbx1ZedU3f8QckBYswW4XfW0jwg6+oHLWmuAg=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Sun, 15 Nov 2026 04:41:47 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Buckle</link>
@@ -59,29 +83,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.1.2/Buckle-0.1.2.dmg" length="5280631" type="application/octet-stream" sparkle:edSignature="caIDvGcEASNXbkg1siOvmI5oUvM8IQBI4rHSRaG/RenU0l271EC6zQyM4jFiX8VRTXHCa1aAQBn6Qi4RgDimAg=="/>
         </item>
-        <item>
-            <title>0.1.1</title>
-            <pubDate>Sat, 14 Nov 2026 11:38:25 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Buckle</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Buckle ��支持 macOS 15+，兼容 Apple Silicon 和 Intel。
-
-下载附件中的 DMG，将 Buckle.app 拖入“应用程序”后打开。
-使用 ad-hoc 签名，未公证；首次运行可能需要在系统设置中允许运行，并按需授予权限、启用 Finder 扩展。
-
-安装包由 GitHub CI 自动检查、编译、打包并发布，启用更新器。私有仓库不会同步公开更新源。
-构建通过不代表已完成全部实机功能验收。
-
-构建记录：https://github.com/SlippinDylan/Buckle/actions/runs/43589667294
-
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.1.1/Buckle-0.1.1.dmg" length="5275624" type="application/octet-stream" sparkle:edSignature="c2buCzX8rFTCms8EZyolXIF70hlJnxd4IpdGTDp+VJYgVOwk/Wf/5F4i0I8oYGqhJqS4iSlMau7xBvO47Le5Dg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: lRf+w0pZOqrpSewpycBjOL3ptzm8tB3Gy+FGOCj+fornnSlerjh7tlAooGnk9DHeaRD/1h6C2xLWBxTyXdAPCw==
-length: 6233
+edSignature: tLuRiGfsyVl3QRYfVlyI0lk0FRhdpcoeGi9/dU8akM29RmhnEw4sxi9MYA0wZP1QQLf+IXxNgO12m4cwavV2DQ==
+length: 7117
 -->
