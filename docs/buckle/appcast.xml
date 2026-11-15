@@ -6,6 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Buckle</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Sun, 15 Nov 2026 09:49:56 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Buckle</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## [0.3.0] - 2026-11-15
+
+### Added
+- An optional first-run setup guide introduces the menu-bar app, Finder actions and their required access, launch at login, and automatic update checks, with an animated welcome, a separate permissions page before feature switches, grouped circular back and continue controls, an inline completion page with a celebration and an action to open the menu, and a reopen action in General settings.
+
+### Changed
+- Closing setup preserves saved choices and prevents the guide from reopening automatically after restarts or upgrades; existing users see it once while keeping their settings.
+- New installations leave automatic update checks off until selected in setup or Settings, without a separate Sparkle permission prompt; existing update preferences and manual checks are preserved.
+
+### Fixed
+- Setup errors stay attached to the window that initiated the action, including after controls refresh.
+- Finder configuration failures expose existing recovery or retry actions instead of an empty feature page.
+- Canceling quit restores a previously visible setup window at its current step.
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.3.0/Buckle-0.3.0.dmg" length="5304180" type="application/octet-stream" sparkle:edSignature="zdbY/+IZzZos65PtvKbBgM3koZZPx7+Nwttw3R4i3NfDmibCObstfkrkUTIkJ+EXu0TFsEI0WA3eNcRpP2njBg=="/>
+        </item>
+        <item>
             <title>0.2.3</title>
             <pubDate>Sun, 15 Nov 2026 08:39:32 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Buckle</link>
@@ -37,33 +60,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.2/Buckle-0.2.2.dmg" length="5216162" type="application/octet-stream" sparkle:edSignature="sfni3ijyyE+7w4cKrF+NGTZcXsiMekKJXxXQht5nhS5hgGsXPDGMCEr99XR6s765RVZsDLS20W83uPgedKpzCA=="/>
         </item>
-        <item>
-            <title>0.2.1</title>
-            <pubDate>Sun, 15 Nov 2026 07:14:36 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Buckle</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## [0.2.1] - 2026-11-15
-
-### Changed
-- CI now classifies changes and automatically packages and publishes an unpublished version after a successful full main build when packaging is enabled; documentation and helper-only changes do not release installers. Test packaging remains a separate manual workflow.
-- Test installers disable updates, and DMGs now use a drag-to-install layout with version, destination, and overwrite checks.
-- Distribution synchronization now prepares the Buckle Homebrew Cask and Tap listing from the published installer alongside its signed update feed.
-
-### Fixed
-- About now explains unavailable updates when configuration is missing or initialization fails.
-- Release checks reject reused versions or build numbers and mismatched update-signing keys before publishing.
-- Activity notifications now cover PR reviews and code comments, link PR conversation comments correctly, and report one start and result per actual CI, packaging, and update-synchronization stage, with publishing results tracked separately.
-- Localization and release-note checks now validate more format arguments, accept Breaking Changes, and reject unfinished release notes.
-- The Settings window no longer floats above Sparkle update windows.
-- Finder context-menu actions no longer crash the extension when Finder invokes them on a background XPC queue, which prevented AirDrop from opening and removed the menu entry afterward.
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.1/Buckle-0.2.1.dmg" length="5200041" type="application/octet-stream" sparkle:edSignature="Bs+ZcJhejWtRe32x0q/fAXPTDjC8JkJ0wIzvJycpVtwOzKKmEWbx1ZedU3f8QckBYswW4XfW0jwg6+oHLWmuAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: YTD6u/wbZXdwdfZKxXbxiUbGPl3gca5BQyFfaAPkXRjrx+yZAwF2cQX+FhtNoqYGhjF7mW8rJrAJOtCNpbd8DA==
-length: 4713
+edSignature: pV0n8yGFuKXer8ZgLol9qwY8ePIj5CITlnCiC0Yk8nngYLEMe0VaVBt2q2KjHtDZkHx9z9GqgRlnHGuhi12BCw==
+length: 4401
 -->

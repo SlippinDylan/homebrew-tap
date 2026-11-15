@@ -1,6 +1,6 @@
 cask "buckle" do
-  version "0.2.3"
-  sha256 "33c1ea380ab248d6c39215195f5fd1ca84d2a33601c92b6ab9b7e5518e20e022"
+  version "0.3.0"
+  sha256 "2220f0c2ea0e2b4dda259cd23904f2f65351f4f1858c60963e627159d863c87e"
 
   url "https://github.com/SlippinDylan/Buckle/releases/download/v#{version}/Buckle-#{version}.dmg"
   name "Buckle"
