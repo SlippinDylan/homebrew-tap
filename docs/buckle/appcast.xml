@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Buckle</title>
         <item>
+            <title>0.2.3</title>
+            <pubDate>Sun, 15 Nov 2026 08:39:32 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Buckle</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## [0.2.3] - 2026-11-15
+
+### Changed
+- Settings tabs now appear in General, Permissions, Mouse Reset, and About order.
+
+### Fixed
+- Accessibility guidance now closes automatically when access is granted and stops checking when returning to Buckle or System Settings exits.
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.3/Buckle-0.2.3.dmg" length="5226098" type="application/octet-stream" sparkle:edSignature="HZNyhqK3321vKnB9TkFSNEZ6jgsM3KpqiSUzsGvN7OYKqzBGLpqBZzOTPaLvzJCeWm5/h8rJkNk62Kp2JOUwCg=="/>
+        </item>
+        <item>
             <title>0.2.2</title>
             <pubDate>Sun, 15 Nov 2026 08:06:09 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Buckle</link>
@@ -44,36 +61,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.1/Buckle-0.2.1.dmg" length="5200041" type="application/octet-stream" sparkle:edSignature="Bs+ZcJhejWtRe32x0q/fAXPTDjC8JkJ0wIzvJycpVtwOzKKmEWbx1ZedU3f8QckBYswW4XfW0jwg6+oHLWmuAg=="/>
         </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Sun, 15 Nov 2026 04:41:47 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Buckle</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## [0.2.0] - 2026-11-15
-
-### Changed
-- Move Items Here no longer asks for confirmation; missing-permission prompts open the existing Settings authorization flows, and move errors use consistent native alerts with clearer guidance and folder or app icons matching the cause.
-- Only AirDrop retains an icon in Finder context menus; Open in Terminal, Copy Path, and Move Items Here use text labels.
-- Move Items Here now opens the destination in Finder and triggers its native move command, with Finder managing progress, conflicts, and Undo; Accessibility and Finder/System Events automation access are required.
-
-### Fixed
-- A damaged move-signing key no longer blocks other Finder action switches or turning off Move Items Here.
-- Destination folders disappearing before script execution now show a folder-specific error and icon while preserving the original error details.
-- Move requests authenticate the destination and clipboard version so arbitrary external URLs cannot trigger a move.
-- Finder authorization rechecks access after a cached grant, including permissions revoked in System Settings.
-- Manual Finder automation authorization waits for an ongoing permission check instead of dropping the request.
-- Finder and System Events automation permissions are reported separately, and moves identify missing access before execution.
-- Move Items Here resolves the native move shortcut using the active keyboard layout, including Dvorak Command mappings, and refuses customized Finder/global menu shortcuts instead of guessing a command.
-- AirDrop no longer blocks other Finder actions or normal quit while awaiting sharing callbacks; per-session delegates handle cancellation and prevent duplicate sharing windows.
-- Copy Path now displays a clear error when copying fails, and remains available when folder metadata checks fail.
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.0/Buckle-0.2.0.dmg" length="5345157" type="application/octet-stream" sparkle:edSignature="0WmrnsSIUvELmjly7PZLJnncL0yrjAPsQgHFuglUkVU0x8dpTYzYCDbTazQu4+Yt1H33gjuGwsU1ZQcZahqlCg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vjWxcznMTy1V9d5BRcaMf47t9pxA5cO03JXN3GsUJRL5on4P/Yjwfx1YSl6TEdMa6f3Y0tUN34BZgnYxJCJjBQ==
-length: 6279
+edSignature: YTD6u/wbZXdwdfZKxXbxiUbGPl3gca5BQyFfaAPkXRjrx+yZAwF2cQX+FhtNoqYGhjF7mW8rJrAJOtCNpbd8DA==
+length: 4713
 -->
