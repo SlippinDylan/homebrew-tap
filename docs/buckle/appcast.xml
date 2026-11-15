@@ -6,6 +6,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Buckle</title>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Sun, 15 Nov 2026 14:19:11 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Buckle</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## [0.3.1] - 2026-11-15
+
+### Changed
+- Removed the setup guide reopen button from General settings; first-run setup still appears once.
+- Added spacing above the mouse reset wait description and styled it as secondary text.
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.3.1/Buckle-0.3.1.dmg" length="5303178" type="application/octet-stream" sparkle:edSignature="ZFPlXvrMgcxbQteeLWqSWmHKVMtONETq300AD3MRfPRfEPLrqGnDnJa1iG0VD9GxIX59bqdjhPYifZ0iKJcNBA=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Sun, 15 Nov 2026 09:49:56 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Buckle</link>
@@ -45,24 +60,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.3/Buckle-0.2.3.dmg" length="5226098" type="application/octet-stream" sparkle:edSignature="HZNyhqK3321vKnB9TkFSNEZ6jgsM3KpqiSUzsGvN7OYKqzBGLpqBZzOTPaLvzJCeWm5/h8rJkNk62Kp2JOUwCg=="/>
         </item>
-        <item>
-            <title>0.2.2</title>
-            <pubDate>Sun, 15 Nov 2026 08:06:09 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Buckle</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## [0.2.2] - 2026-11-15
-
-### Fixed
-- Finder context-menu actions now retain their request snapshots when Finder replaces menu items with XPC proxies and publish concurrent menu snapshots atomically.
-- AirDrop requests file access before checking availability, so protected-folder access errors are not mistaken for an unsupported sharing service.
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.2/Buckle-0.2.2.dmg" length="5216162" type="application/octet-stream" sparkle:edSignature="sfni3ijyyE+7w4cKrF+NGTZcXsiMekKJXxXQht5nhS5hgGsXPDGMCEr99XR6s765RVZsDLS20W83uPgedKpzCA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: pV0n8yGFuKXer8ZgLol9qwY8ePIj5CITlnCiC0Yk8nngYLEMe0VaVBt2q2KjHtDZkHx9z9GqgRlnHGuhi12BCw==
-length: 4401
+edSignature: mj1RRM91jzPvufjSbOK+Yw7go7YV7OOmfGWgNszOnat0FIA/Rcb+RpAu7iTMpkjJuflEJ1uBf8K2qtGpYco3Aw==
+length: 4278
 -->
