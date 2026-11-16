@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Buckle</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Mon, 16 Nov 2026 06:09:05 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Buckle</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## [0.4.0] - 2026-11-16
+
+### Added
+- Optional New Text File Finder action creates and selects an empty text file in a single folder, using numbered names without overwriting existing files and rejecting replayed creation requests across restarts.
+- Optional middle-click quitting for running apps in the Dock, with synchronized menu-bar and General switches, permission status, and a menu-bar action choice saved between launches: normal quit by default, or force quit with confirmation each time and app-instance revalidation.
+
+### Changed
+- Added matching native color icons for Open in Terminal, Copy Path, Move Items Here, and New Text File in Finder context menus and the menu-bar menu; AirDrop keeps its system icon.
+- Documented how to clear the setup dismissal record when uninstalling so setup appears after reinstalling; normal upgrades preserve it.
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.4.0/Buckle-0.4.0.dmg" length="24264432" type="application/octet-stream" sparkle:edSignature="tNPT34hW7Z0Jz7NdWPz/q3ymLr9zy1mcQ7oB95ys2wB0W7mHPmlA7cLNBYY1XkRTvhzJ6OKxMtJnyfzU68KhDQ=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Sun, 15 Nov 2026 14:19:11 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Buckle</link>
@@ -43,26 +62,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.3.0/Buckle-0.3.0.dmg" length="5304180" type="application/octet-stream" sparkle:edSignature="zdbY/+IZzZos65PtvKbBgM3koZZPx7+Nwttw3R4i3NfDmibCObstfkrkUTIkJ+EXu0TFsEI0WA3eNcRpP2njBg=="/>
         </item>
-        <item>
-            <title>0.2.3</title>
-            <pubDate>Sun, 15 Nov 2026 08:39:32 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Buckle</link>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## [0.2.3] - 2026-11-15
-
-### Changed
-- Settings tabs now appear in General, Permissions, Mouse Reset, and About order.
-
-### Fixed
-- Accessibility guidance now closes automatically when access is granted and stops checking when returning to Buckle or System Settings exits.
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.2.3/Buckle-0.2.3.dmg" length="5226098" type="application/octet-stream" sparkle:edSignature="HZNyhqK3321vKnB9TkFSNEZ6jgsM3KpqiSUzsGvN7OYKqzBGLpqBZzOTPaLvzJCeWm5/h8rJkNk62Kp2JOUwCg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: mj1RRM91jzPvufjSbOK+Yw7go7YV7OOmfGWgNszOnat0FIA/Rcb+RpAu7iTMpkjJuflEJ1uBf8K2qtGpYco3Aw==
-length: 4278
+edSignature: rQHHqMaAwvQWyfYAVAAvlFtyXuEHdhVZ9DB3tNWQYmHKAppTLwCWZdqj2PW2SC3+vjTZSeWcSdgRaH0s0XUABA==
+length: 4867
 -->
