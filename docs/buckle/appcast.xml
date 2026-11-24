@@ -6,6 +6,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Buckle</title>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Tue, 24 Nov 2026 05:59:01 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Buckle</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## [0.4.1] - 2026-11-24
+
+### Changed
+- Limited Finder Sync directory observation to the startup volume (`/`) instead of registering other mounted volumes, so Buckle no longer replaces Finder sidebar icons for external drives, disk images, or network volumes.
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.4.1/Buckle-0.4.1.dmg" length="24253748" type="application/octet-stream" sparkle:edSignature="a2JABhKavPEqLqUeo/wvYhe5oR+9PPNxAXXjGxiHyC/XJE0lPSomWskqJzHt2fPGcvmeTFhpj1swI7xB11P3Ag=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Mon, 16 Nov 2026 06:09:05 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Buckle</link>
@@ -39,32 +53,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.3.1/Buckle-0.3.1.dmg" length="5303178" type="application/octet-stream" sparkle:edSignature="ZFPlXvrMgcxbQteeLWqSWmHKVMtONETq300AD3MRfPRfEPLrqGnDnJa1iG0VD9GxIX59bqdjhPYifZ0iKJcNBA=="/>
         </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Sun, 15 Nov 2026 09:49:56 +0000</pubDate>
-            <link>https://github.com/SlippinDylan/Buckle</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## [0.3.0] - 2026-11-15
-
-### Added
-- An optional first-run setup guide introduces the menu-bar app, Finder actions and their required access, launch at login, and automatic update checks, with an animated welcome, a separate permissions page before feature switches, grouped circular back and continue controls, an inline completion page with a celebration and an action to open the menu, and a reopen action in General settings.
-
-### Changed
-- Closing setup preserves saved choices and prevents the guide from reopening automatically after restarts or upgrades; existing users see it once while keeping their settings.
-- New installations leave automatic update checks off until selected in setup or Settings, without a separate Sparkle permission prompt; existing update preferences and manual checks are preserved.
-
-### Fixed
-- Setup errors stay attached to the window that initiated the action, including after controls refresh.
-- Finder configuration failures expose existing recovery or retry actions instead of an empty feature page.
-- Canceling quit restores a previously visible setup window at its current step.
-]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Buckle/releases/download/v0.3.0/Buckle-0.3.0.dmg" length="5304180" type="application/octet-stream" sparkle:edSignature="zdbY/+IZzZos65PtvKbBgM3koZZPx7+Nwttw3R4i3NfDmibCObstfkrkUTIkJ+EXu0TFsEI0WA3eNcRpP2njBg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: rQHHqMaAwvQWyfYAVAAvlFtyXuEHdhVZ9DB3tNWQYmHKAppTLwCWZdqj2PW2SC3+vjTZSeWcSdgRaH0s0XUABA==
-length: 4867
+edSignature: RnJA8sQ3Ue4qAjk5P2aF3p5i7UnHQk7iAwniFO7/N5ItbR+NvWg05ohDLcEz2mzr04h8m+jmXJmshiZL39azCg==
+length: 4006
 -->
