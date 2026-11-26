@@ -1,6 +1,6 @@
 cask "cellar" do
-  version "0.1.1"
-  sha256 "80e598658f4c65cca995f33d65332d8a56d254cb73cdbb46ecd17600f4c123ec"
+  version "0.1.2"
+  sha256 "7596b5441d41c32d333e3c553269e3f20409486dcf9021ac64a699195e8babb6"
 
   url "https://github.com/SlippinDylan/Cellar/releases/download/v#{version}/Cellar-#{version}.dmg"
   name "Cellar"
