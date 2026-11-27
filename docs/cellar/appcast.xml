@@ -7,6 +7,40 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Cellar</title>
         <item>
             <title>0.1.0</title>
+            <pubDate>Fri, 27 Nov 2026 14:33:07 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Cellar</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.0-beta.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Improved
+
+- Aligned modal body content, omitted empty footers on loading sheets, replaced plain-text running footers with disabled action buttons, and removed the redundant box wrapper on clean npm cache verification results.
+- Redesigned the Batch Install sheet with a taller package editor, a top-right header progress counter, the sequential execution note below the item grid, zero-jump in-place status transitions, and preserved npm context through execution and results.
+- Redesigned the Uninstall sheet into a narrower 500pt vertical header layout with grouped Cask removal sections, shortened SHA-256 download cache names with parent directories, full-width warnings, and stable footer buttons.
+
+### Fixed
+
+- Fixed preparing global npm package uninstalls when the bundled manager reports `alreadyInstalled: true`.
+- Animated the toolbar refresh indicator during initial and background Library update checks.
+
+## 安装
+
+1. 打开 DMG，将 `Cellar.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Cellar.app
+   ```
+
+> 此版本使用 Apple Development 签名，未经 Apple 公证。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Cellar/releases/download/v0.1.0-beta.3/Cellar-0.1.0-beta.3.dmg" length="9085536" type="application/octet-stream" sparkle:edSignature="FqgpE7tykSivyfkR3t+CHzFYnLumiwYJuFlF4xKPRUnxBANSnkhq+NSj1CdNW0uh6k3sFtoXmbWPUFFvWJwFBw=="/>
+        </item>
+        <item>
+            <title>0.1.0</title>
             <pubDate>Fri, 27 Nov 2026 11:36:26 +0000</pubDate>
             <link>https://github.com/SlippinDylan/Cellar</link>
             <sparkle:channel>beta</sparkle:channel>
@@ -91,6 +125,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: V7uj/mZ3Mr3wQAbV3WGzAXv2eg9dluYzkZjaMb5I5zIsNY6JhY7Na7mnl6RFY39vZXbWTVbjH3jiKZBQycnxDw==
-length: 6744
+edSignature: p2AlS3DFTMpgsUuAYU0GC613XMHtD21xDe7Bj72E643Jd4Y4Ufj9KUriWc+dJFErI+IKALLoz5CTmtZ7emk7Bg==
+length: 8813
 -->
