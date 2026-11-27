@@ -1,8 +1,47 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Cellar</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Fri, 27 Nov 2026 11:36:26 +0000</pubDate>
+            <link>https://github.com/SlippinDylan/Cellar</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.0-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Improved
+
+- Compacted confirmation, completion, and progress sheets across Terminal, Tap, npm, Node, Home setup, and Maintenance views so short content hugs tightly without excess blank boxes.
+- Simplified the Oh My Zsh and Zsh tidy confirmation sheets by folding target paths directly into the description when no file list is needed.
+- Redesigned all Batch Install stages (checking indicator in footer, compact two-column review grid, live per-item spinners during execution, and unified result tiles).
+- Removed the duplicate spinner inside the Formula and npm uninstall modal.
+
+### Fixed
+
+- Retried transient GitHub API errors, shared ETag caching when verifying the official Homebrew installer, and reported API rate limits explicitly.
+- Fixed installing uninstalled global npm packages (such as `@antfu/ni`) on npm 11 when `npm ls -g <pkg> --depth=0 --json` omits the `dependencies` object.
+- Preserved Discover search query, scope, and results across sidebar switches, fixed Homebrew cards remaining stuck on Uninstall after removal, and tinted uninstall card spinners red.
+- Prevented the Batch Install package editor from clipping the last line horizontally after deleting rows.
+
+## 安装
+
+1. 打开 DMG，将 `Cellar.app` 拖到 `Applications`。
+2. 移除下载隔离属性：
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine /Applications/Cellar.app
+   ```
+
+> 此版本使用 Apple Development 签名，未经 Apple 公证。
+
+]]></description>
+            <enclosure url="https://github.com/SlippinDylan/Cellar/releases/download/v0.1.0-beta.2/Cellar-0.1.0-beta.2.dmg" length="9033106" type="application/octet-stream" sparkle:edSignature="p3bVEe2TiuczS0FzHOMjGfaVdVOAtVIMNmRia//DQyZNS1IYG2xd1c16DlscpOlMKk8N1AFJe4iM52MQhn/dAA=="/>
+        </item>
         <item>
             <title>0.1.0</title>
             <pubDate>Fri, 27 Nov 2026 07:30:52 +0000</pubDate>
@@ -47,10 +86,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 > 此版本使用 Apple Development 签名，未经 Apple 公证。
 
 ]]></description>
-            <enclosure url="https://github.com/SlippinDylan/Cellar/releases/download/v0.1.0-beta.1/Cellar-0.1.0-beta.1.dmg" length="8960756" type="application/octet-stream" sparkle:edSignature="tTwWyhAnIa8e6VnadKnvbO51ZZ1pII6TbHVcVhJNz/mO/kWbLT2gOCfGoef5TNcbth7867KYGLlEB+5DVVKsCg=="></enclosure>
+            <enclosure url="https://github.com/SlippinDylan/Cellar/releases/download/v0.1.0-beta.1/Cellar-0.1.0-beta.1.dmg" length="8960756" type="application/octet-stream" sparkle:edSignature="tTwWyhAnIa8e6VnadKnvbO51ZZ1pII6TbHVcVhJNz/mO/kWbLT2gOCfGoef5TNcbth7867KYGLlEB+5DVVKsCg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: /OEnAiPck6NaLPtTqMxJgAPcVhiKqIEGKf5fUz//EVLxCDE+IQn5yGVA2zsBcenlZtK0Hm5kT7/RWbb+SIkDDA==
-length: 4411
+</rss>
+<!-- sparkle-signatures:
+edSignature: V7uj/mZ3Mr3wQAbV3WGzAXv2eg9dluYzkZjaMb5I5zIsNY6JhY7Na7mnl6RFY39vZXbWTVbjH3jiKZBQycnxDw==
+length: 6744
 -->
